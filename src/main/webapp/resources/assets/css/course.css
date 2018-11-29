@@ -1,0 +1,187 @@
+tr.selected {
+    background-color: rgb(217, 217, 217) !important;
+}
+
+span.asteriskField {
+    color: red;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none;
+}
+
+.node {
+    margin-left: 10px;
+}
+
+.c-datepicker--open {
+    z-index: 99999;
+}
+
+/**, ::after, ::before {
+    box-sizing: inherit !important;
+}*/
+
+.js-date-day {
+    margin-top: 30px !important;;
+}
+
+.js-date-time {
+    margin-top: 30px !important;
+}
+
+.gwt .form-group {
+    margin: 0;
+    padding: 0;
+}
+
+.gwt .form-control {
+    height: 10px;
+    padding: 15px 0;
+}
+
+.gwt textarea.form-control {
+    height: inherit !important;
+}
+
+.select2-container--open {
+    z-index: 99999999999;
+}
+
+body {
+    font-size: 10pt;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    padding: 0px;
+}
+
+.select2-results__option {
+    padding: 0 5px !important;
+}
+
+.table tr td, .table tr th {
+    padding: 5px 10px !important;
+}
+
+.form-control, .form-group label.control-label {
+    font-size: 10pt;
+    margin: 0px;
+}
+
+.calendar-form td:first-child > div {
+    width: 30px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.calendar-form td {
+    height: 40px;
+}
+
+.calendar-form td > div {
+    /*width: 100px;*/
+    white-space: pre-wrap;
+    position: absolute;
+    font-weight: bold;
+}
+
+.calendar-form tr:first-child td {
+    text-align: center;
+}
+
+table.attendance td {
+    max-width: 30px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-card {
+    box-shadow: none !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.img_300_300 {
+    width: 350px;
+    /*height: 233px;*/
+}
+
+.container {
+
+}
+
+.cabinet, .cabinet .container-fluid {
+    padding: 0 !important;
+}
+
+img.mini {
+    width: 50px;
+    height: 50px;
+}
+
+.modal-dialog img.mini {
+    width: 40px;
+    height: 40px;
+}
+
+.form-horizontal .form-group > label,
+.form-horizontal .form-group > div {
+    float: left;
+}
+
+.modal-content {
+    background-color: #f5f5f5;
+}
+
+.modal .modal-dialog .modal-header {
+    margin-bottom: 20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 2px;
+    background-color: #fff;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 2rem;*/
+    border: 0;
+
+    position: relative;
+    /*display: flex;*/
+    -ms-flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.language-selection ul {
+    padding-top: 10px;
+}
+
+.language-selection ul.nav li a {
+    padding: 15px;
+}
+
+.language-selection ul.navbar li a {
+    padding: 15px 5px;
+}
+
+.selectedLang {
+    background-color: #E7F3FF;
+}
+
+.form-group label {
+color: #3e3b3b!important;
+}
